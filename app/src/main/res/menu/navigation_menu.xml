@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="New Group"
+            android:id="@+id/newGroup"
+            android:icon="@drawable/group" />
+
+        <item
+            android:title="New Secret Chat"
+            android:id="@+id/newSecretChat"
+            android:icon="@drawable/new_secret_channel"/>
+
+        <item
+            android:title="New Channel"
+            android:id="@+id/newChannel"
+            android:icon="@drawable/new_channel"/>
+
+        <item
+            android:title="Contacts"
+            android:id="@+id/contacts"
+            android:icon="@drawable/contacts"/>
+
+        <item
+            android:title="Calls"
+            android:id="@+id/call"
+            android:icon="@drawable/calls"/>
+
+        <item
+            android:title="Saved Messages"
+            android:id="@+id/savedMessages"
+            android:icon="@drawable/bookmark"/>
+
+        <item
+            android:title="Setting"
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"/>
+
+
+                <item
+                    android:title="Invite Friends"
+                    android:id="@+id/inviteFriends"
+                    android:icon="@drawable/invite_friends"/>
+
+                <item
+                    android:title="Telegram FAQ"
+                    android:id="@+id/telegramFAQ"
+                    android:icon="@drawable/telegram_faq"/>
+
+    </group>
+</menu>
